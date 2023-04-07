@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author qinkai
  */
 @Configuration
-@ConditionalOnExpression("#{'${db.type}'.equals('dm') or '${db.type}'.equals('dm')}")
+@ConditionalOnExpression("#{'${db.type}'.equals('dm') or '${db.type}'.equals('dm8')}")
 @ComponentScan("ooo.github.io")
 public class DmAutoConfiguration {
 

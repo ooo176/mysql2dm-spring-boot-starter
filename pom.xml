@@ -8,9 +8,6 @@
     <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <properties>
-        <!--项目permission所有依赖版本-->
-        <permission-lib.version>3.1.4</permission-lib.version>
-
         <!--log4j最新版本，修改log4j漏洞，验证分保-->
         <log4j.version>2.17.2</log4j.version>
         <elasticsearch.version>5.6.10</elasticsearch.version>
@@ -70,7 +67,7 @@
 
         <minio.version>6.0.11</minio.version>
         <google.http-client.version>1.24.1</google.http-client.version>
-        <dm.version>1.8.0</dm.version>
+        <dm.version>8.1.1.49</dm.version>
     </properties>
 
     <dependencies>
@@ -101,11 +98,13 @@
             <version>${lombok.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.dameng/Dm8JdbcDriver18 -->
         <dependency>
-            <groupId>com.dm</groupId>
-            <artifactId>DmJdbcDriver</artifactId>
+            <groupId>com.dameng</groupId>
+            <artifactId>Dm8JdbcDriver18</artifactId>
             <version>${dm.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
