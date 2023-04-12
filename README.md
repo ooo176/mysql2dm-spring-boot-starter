@@ -1,4 +1,4 @@
-# spring-boot-starter-dm说明文档
+# spring-boot-starter-mysql2dm说明文档
 [![](https://jitpack.io/v/ooo176/spring-boot-starter-dm.svg)](https://jitpack.io/#ooo176/spring-boot-starter-dm)
 
 ## 1.依赖版本
